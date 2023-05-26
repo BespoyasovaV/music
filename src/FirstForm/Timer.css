@@ -1,0 +1,35 @@
+.main_block-timer{
+    position: relative;
+    z-index: 2;
+    margin:4vh 7vh 0vh 4vh;
+    float: right;
+}
+.countdown {
+    display: flex;
+    flex-direction: row;
+    z-index: 10;
+    justify-content: space-around;
+    position: relative;
+    right: 3%;
+    top: 40%
+}
+.time-section {
+
+    margin-left: 100px;
+    font-family: Arial, Arial Bold, Gadget, sans-serif;
+    color: transparent;
+    -webkit-text-stroke: 0.5px white;
+
+}
+
+.time-section:last-child {
+    border: none;
+}
+
+.count {
+    font-size: 15vh;
+}
+
+.units {
+    font-size: 15vh;
+}

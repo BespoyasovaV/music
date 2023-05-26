@@ -1,0 +1,12 @@
+.titleTier {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 44.2px;
+    text-align: center;
+
+}
+.cardSale {
+    display: flex;
+    justify-content: center;
+}

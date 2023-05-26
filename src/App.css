@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
-}
+.firstForm{
+position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.secondForm{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 100%;
+   
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.firdForm{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 200%;
+    margin: 0vh 0vh 0vh 15vh;
+   
 }
-
-.App-link {
-  color: #61dafb;
+.fothForm{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 300%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fiveForm{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 400%;
+    background: linear-gradient(180deg, rgba(56, 29, 219, 0.05) 0%, rgba(56, 29, 219, 0) 100%);
+}
+.sixForm{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 585%;
+}
+.sevenForm{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 685%;
+    
+}
+.eightForm{
+   
+    height: 100%;
+    background: white;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 785%;
+    margin: 20vh;
+    display:block;
+    width: 100%;
+    margin-left: 1vh;
+   
+}
+.nineForm{
+    height: 100%;
+    background: white;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 885%;
+    margin: 20vh;
+    display:block
+}
+.tenForm{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 985%;
+    margin-top: 10vh;
 }

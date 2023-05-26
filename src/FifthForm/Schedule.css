@@ -1,0 +1,34 @@
+.allTitle{
+    padding: 11vh 24vh 3vh 24vh;
+}
+a{
+      text-decoration: none;
+}
+.txtEventScheduler {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 130%;
+}
+
+.days {
+    display: flex;
+    justify-content: space-between;
+}
+
+.indicator {
+    width: 270px;
+    height: 4px;
+
+    background: #381DDB;
+}
+
+.titleDay {
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 38px;
+    color: rgba(56, 29, 219, 1);
+
+}

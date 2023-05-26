@@ -1,0 +1,50 @@
+.all {
+    display: flex;
+    justify-content: space-around;
+}
+.content{
+    text-align: left;
+}
+.title {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 34px;
+    margin-right: 5vh;
+    text-align: center;
+}
+
+.text {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 16px;
+}
+.piktures{
+    filter: drop-shadow(0 0 1.1rem rgb(73, 16, 28)); 
+}
+.img1{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.img2{
+    display: flex;
+    justify-content: space-around;
+   
+}
+#pikture1{
+    width: 40vh;
+    height:auto;
+    margin:  17vh 0vh 0vh 0vh;
+  
+}
+#pikture3, #pikture2 {
+    width: 40vh;
+    height:auto;
+    margin:  2vh;
+}
+#pikture4{
+    width: 40vh;
+    height:auto;
+    margin:  2vh;
+}
+
